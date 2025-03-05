@@ -135,7 +135,7 @@ if page == "Home":
     st.markdown(f'<div class="dua-text">{dua}</div>', unsafe_allow_html=True)
 
 
-
+    st.subheader(Azkar for  Day 📿)
     azkar = get_azkar(st.session_state.day_number)
     st.markdown('<div class="info-box">', unsafe_allow_html=True)
     st.markdown('<div class="info-box">', unsafe_allow_html=True)
